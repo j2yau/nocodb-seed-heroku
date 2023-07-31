@@ -14,12 +14,7 @@
     }
   },
   "stack": "container",
-  "addons": [
-    {
-      "plan": "heroku-postgresql:hobby-dev"
-    }
-  ],
-   "env": {
+  "env": {
         "NC_ONE_CLICK": "true",
         "NODE_TLS_REJECT_UNAUTHORIZED": "0"
     }
